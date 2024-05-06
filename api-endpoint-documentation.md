@@ -52,7 +52,7 @@ http://localhost:5000/
 - **Response:**
   - `200 OK`: List of products retrieved successfully
 
-##### Get Product by ID
+##### 3. Get Product by ID
 - **URL:** `/products/<product_id>`
 - **Method:** `GET`
 - **Description:** Retrieves details of a specific product.
@@ -61,7 +61,7 @@ http://localhost:5000/
   - `200 OK`: Product details retrieved successfully
   - `404 Not Found`: Product not found
 
-##### Create Product
+##### 4. Create Product
 - **URL:** `/products`
 - **Method:** `POST`
 - **Description:** Creates a new product.
@@ -78,7 +78,7 @@ http://localhost:5000/
   - `201 Created`: Product created successfully
   - `400 Bad Request`: Invalid request body
 
-##### Update Product
+##### 5. Update Product
 - **URL:** `/products/<product_id>`
 - **Method:** `PUT`
 - **Description:** Updates details of a specific product.
@@ -95,7 +95,7 @@ http://localhost:5000/
   - `200 OK`: Product updated successfully
   - `404 Not Found`: Product not found
 
-##### Delete Product
+##### 6. Delete Product
 - **URL:** `/products/<product_id>`
 - **Method:** `DELETE`
 - **Description:** Deletes a specific product.
