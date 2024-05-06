@@ -53,6 +53,20 @@ FLUSH PRIVILEGES;
     USE pythonAPI;
     ```
 
+3. Add Example Products in table:
+    ```sql
+    INSERT INTO products (title, description, price) VALUES
+    ('Boult Audio BassBuds Q2 Over-Ear Wired Earphones', 'Comfortable over-ear design, deep bass, passive noise cancellation, adjustable headband', 899),
+    ('boAt Rockerz 450 Bluetooth On-Ear Headphone', '40mm dynamic drivers, HD immersive audio, ergonomic design, up to 15 hours of playback', 1499),
+    ('Realme Buds Wireless 2 Neo', 'Bass Boost+ mode, 11.2mm bass boost driver, magnetic instant connection, up to 17 hours of playback', 1499),
+    ('Mi True Wireless Earphones 2C', '14.2mm large dynamic drivers, ENC dual-mic noise cancellation, up to 20 hours of playback with case', 2499),
+    ('Philips TAUH201BK Wireless Bluetooth Over-Ear Headphones', 'Deep bass, 32mm drivers, adjustable headband, soft ear cushions, up to 15 hours of playback', 1999),
+    ('JBL Live 500BT Wireless Over-Ear Headphones', 'JBL Signature Sound, Ambient Aware and TalkThru technology, Google Assistant and Amazon Alexa built-in', 7999),
+    ('Sony WH-CH510 Wireless Bluetooth Headphones', '30mm drivers, up to 35 hours of battery life, swivel design for easy portability, voice assistant compatible', 3999);
+
+    ```
+
+
 ### Step 4: Run the Flask Application
 Run the Flask application:
 
