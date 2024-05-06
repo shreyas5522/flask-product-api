@@ -1,4 +1,4 @@
-##Basic GUIDE TO RUN APP ON UBUNTU/DEBAIN Linux Based System
+## Basic GUIDE TO RUN APP ON UBUNTU/DEBAIN Linux Based System
 
 ### Step 1: Install Required Libraries
 Ensure you have Python and pip installed. Then, install Flask, SQLAlchemy, Flask-SQLAlchemy, Flask-JWT-Extended, and Werkzeug:
